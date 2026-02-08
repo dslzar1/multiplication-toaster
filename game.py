@@ -6,8 +6,8 @@ def timed_input(prompt: str, timeout: int):
     """
     Reads user input with a time limit.
 
-    USes a background thread to avoid blocking the main program, allowing 
-    the timer to continue running. WOrks on Windows, macOS, and Linux.
+    Uses a background thread to avoid blocking the main program, allowing 
+    the timer to continue running. Works on Windows, macOS, and Linux.
     Returns user input or None if time expires.
     """
     result = [None]
